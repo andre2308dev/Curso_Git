@@ -40,3 +40,14 @@
     font-size: 25px;
     font-weight: 350;
 }
+
+.footer {
+    margin: 15px;
+}
+.texto_footer {
+    font-size: 30px;
+}
+
+.lorem_footer {
+    font-size: 30px;
+}
