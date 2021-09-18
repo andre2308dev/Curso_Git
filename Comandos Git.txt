@@ -1,0 +1,54 @@
+COMANDOS GIT
+
+Curso De Git And GitHub
+
+Comandos
+
+git init
+inicia un repositorio de tu proyecto en
+la rama Master
+
+git status
+ver que cambios se han hecho en los archivos
+
+git add (.) agregar todos los cambios (nombre) envia solo un archivo
+
+git commit -m "descripcion"
+se guardan los cambios de los archivos
+
+git restore --staged (.)--> todos (nombre)--> Un solo archivo
+se eliminan los cambios de los archivos con git add
+
+git log 
+Miras los commit que se han hecho
+
+git log --stat
+Miras explicitamente los cambios de los commits
+
+git log --oneline
+Es para devolvernos a las versiones anteriores y nos tira un codigo
+c179cd5
+
+git checkout c179cd5
+con esto se elimina los otros commit y volvemos
+a la version anterior
+
+git branch
+Nos muestra en que rama estamos trabajando
+
+git checkout master
+Volvemos otra vez a nuestra rama master y tenemos nuestro
+codigo que habiamos hecho ultimo
+
+git checkout -b
+git checkout -b ramafooter
+Nos ayuda a crear otra rama para trabajar
+
+git merge
+git merge ramafooter
+Nos ayuda a unir ese codigo a la rama master
+
+git branch -d
+git branch -d ramafooter
+Nos ayuda a eliminar la rama que ya
+no necesitamos
