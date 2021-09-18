@@ -52,3 +52,7 @@ git branch -d
 git branch -d ramafooter
 Nos ayuda a eliminar la rama que ya
 no necesitamos
+
+git push -u origin master
+Enviamos todos los commit al repositorio 
+de GitHub
